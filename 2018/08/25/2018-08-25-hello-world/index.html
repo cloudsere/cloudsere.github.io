@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <title>博客迁移到hexo啦！ | Lesley&#39;s Blog</title>
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <meta name="description" content="博客迁移到hexo啦！因为一直很想要hexo的标签呀，文章分类啊这些功能，而且觉得hexo的脚手架比较完善，新建post会比较轻松，所以把博客从原来手写jekyll的迁移过来了。 自己是一直都有用bear来记笔记，写一些memo的习惯的，但是也希望能和很多人交流自己的想法，所以想逐渐的同步自己在bear上的写作，po到博客上来～ 迁移过程在这里记录一下用hexo搭建博客的过程，可以说是非常快速了，">
+<meta name="keywords" content="frontend">
+<meta property="og:type" content="article">
+<meta property="og:title" content="博客迁移到hexo啦！">
+<meta property="og:url" content="/2018/08/25/2018-08-25-hello-world/index.html">
+<meta property="og:site_name" content="Lesley&#39;s Blog">
+<meta property="og:description" content="博客迁移到hexo啦！因为一直很想要hexo的标签呀，文章分类啊这些功能，而且觉得hexo的脚手架比较完善，新建post会比较轻松，所以把博客从原来手写jekyll的迁移过来了。 自己是一直都有用bear来记笔记，写一些memo的习惯的，但是也希望能和很多人交流自己的想法，所以想逐渐的同步自己在bear上的写作，po到博客上来～ 迁移过程在这里记录一下用hexo搭建博客的过程，可以说是非常快速了，">
+<meta property="og:locale" content="Chinese, English">
+<meta property="og:updated_time" content="2018-08-25T15:11:42.282Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="博客迁移到hexo啦！">
+<meta name="twitter:description" content="博客迁移到hexo啦！因为一直很想要hexo的标签呀，文章分类啊这些功能，而且觉得hexo的脚手架比较完善，新建post会比较轻松，所以把博客从原来手写jekyll的迁移过来了。 自己是一直都有用bear来记笔记，写一些memo的习惯的，但是也希望能和很多人交流自己的想法，所以想逐渐的同步自己在bear上的写作，po到博客上来～ 迁移过程在这里记录一下用hexo搭建博客的过程，可以说是非常快速了，">
+  
+    <link rel="alternative" href="/atom.xml" title="Lesley&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+    
+  <meta content="{{ title }}" name="description">
+  <meta content="{{ title }}" name="keywords">
+  <meta content="{{ title }}" name="author">
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
+
+  <!-- Global styles START -->   
+  <link rel="stylesheet" href="/metronic/assets/plugins/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/metronic/assets/plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Global styles END --> 
+   
+  <!-- Page level plugin styles START -->
+  <link rel="stylesheet" href="/metronic/assets/pages/css/animate.css">
+  <link rel="stylesheet" href="/metronic/assets/plugins/owl.carousel/assets/owl.carousel.css">
+  <!-- Page level plugin styles END -->
+
+  <!-- Theme styles START -->
+  <link rel="stylesheet" href="/metronic/assets/pages/css/components.css">
+  <link rel="stylesheet" href="/metronic/assets/pages/css/slider.css">
+  <link rel="stylesheet" href="/metronic/assets/corporate/css/style.css">
+  <link rel="stylesheet" href="/metronic/assets/pages/css/portfolio.css">
+  <link rel="stylesheet" href="/metronic/assets/corporate/css/style-responsive.css">
+  <link rel="stylesheet" href="/metronic/assets/corporate/css/themes/gray.css">
+  <link rel="stylesheet" href="/css/theme-styles.css">
+  <!-- Theme styles END -->
+</head>
+
+<body class="corporate">
+  <!-- BEGIN HEADER -->
+<div class="header">
+  <div class="container">
+    <!--<a class="site-logo" href="/" id="logo">Lesley&#39;s Blog</a>-->
+
+    <a class="site-logo" href="/">
+      <!-- <img src="/metronic/assets/corporate/img/logos/logo-corp-gray.png" alt="Metronic FrontEnd"> -->
+    </a>
+
+    <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
+
+    <!-- BEGIN NAVIGATION -->
+    <div class="header-navigation pull-right font-transform-inherit">
+      <ul>
+	
+	<li class="">
+	  <a  href="/">Home</a>
+	</li>
+	
+	<li class="">
+	  <a  href="/archives/">Blog</a>
+	</li>
+	
+	<!-- BEGIN TOP SEARCH -->
+	<li class="menu-search">
+	  <span class="sep"></span>
+	  <i class="fa fa-search search-btn"></i>
+	  <div class="search-box">
+	    <form action="#">
+	      <div class="input-group">
+		<input type="text" placeholder="Search" class="form-control st-default-search-input">
+		<span class="input-group-btn">
+		  <button class="btn btn-primary" type="submit">Search</button>
+		</span>
+	      </div>
+	    </form>
+	  </div> 
+	</li>
+	<!-- END TOP SEARCH -->
+      </ul>
+    </div>
+    <!-- END NAVIGATION -->
+  </div>
+</div>
+<!-- Header END -->
+
+  <div class="container">
+  <ul class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    <li><a href="/archives/">Blog</a></li>
+    <li class="active">Post</li>
+  </ul>
+  <section id="main">
+    
+    <h2 itemprop="name">
+      <a class="article-title" href="/2018/08/25/2018-08-25-hello-world/">博客迁移到hexo啦！</a>
+    </h2>
+
+
+    <div class="row">
+<div class="col-md-9 col-sm-9 blog-posts">
+<article id="default_layout-2018-08-25-hello-world" class="article article-type-default_layout blog-item" itemscope itemprop="blogPost">
+  <div class="article-meta">
+  </div>
+  <div class="article-inner">
+    
+    
+    <header class="article-header">
+      <ul class="blog-info">
+	<li><i class="fa fa-user"></i> Lesley</li>
+	<li><i class="fa fa-calendar"></i>
+	  <time datetime="2018-08-25T12:23:30.000Z" itemprop="datePublished">2018/08/25</time>
+
+	</li>
+	<li class="hidden-xs"><i class="fa fa-comments"></i>
+	  <a href="/2018/08/25/2018-08-25-hello-world/#disqus_thread" class="article-comment-link">Comments</a>
+	</li>
+	<li class="hidden-xs"><i class="fa fa-tags"></i> 
+	  
+  
+    <a href="/tags/frontend/" title="frontend">frontend</a>
+  
+
+
+	</li>
+      </ul>
+      
+  <div class="article-category">
+    
+    Category: 
+    
+    Categories:
+    <a class="article-category-link" href="/categories/Tech/">Tech</a>
+  </div>
+  <br>
+
+
+    </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="博客迁移到hexo啦！"><a href="#博客迁移到hexo啦！" class="headerlink" title="博客迁移到hexo啦！"></a>博客迁移到hexo啦！</h1><p>因为一直很想要hexo的标签呀，文章分类啊这些功能，而且觉得hexo的脚手架比较完善，新建post会比较轻松，所以把博客从原来手写jekyll的迁移过来了。</p>
+<p>自己是一直都有用bear来记笔记，写一些memo的习惯的，但是也希望能和很多人交流自己的想法，所以想逐渐的同步自己在bear上的写作，po到博客上来～</p>
+<h2 id="迁移过程"><a href="#迁移过程" class="headerlink" title="迁移过程"></a>迁移过程</h2><p>在这里记录一下用hexo搭建博客的过程，可以说是非常快速了，大部分时间都花在挑选一个好看的模版上了。。。我挺喜欢自己原来的小站的，虽然更新非常少，也是学做网页初期写的，响应式做的也很粗糙，但当时也花心思做了一些女孩子喜欢的小功能，例如刷新页面变图片什么的。。emmm，也不是什么重要的功能啦！</p>
+<p><a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">hexo官网</a></p>
+<blockquote>
+<p>其实只要跟着文档走就完全OK了！</p>
+</blockquote>
+<p>首先安装hexo脚手架<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
+<p>然后新建自己的项目<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init myBlog</span><br></pre></td></tr></table></figure></p>
+<p>然后cd进这个目录，初始化<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure></p>
+<p>都好了以后，就新建一篇post看看效果<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new default_layout my-first-article</span><br></pre></td></tr></table></figure></p>
+<p>然后让hexo帮你生成页面<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
+<p>最后本地调试<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></p>
+<p>部署到github上，使用<a href="https://pages.github.com/" target="_blank" rel="noopener">github pages</a>看自己的博客也很简单</p>
+<p>编辑<code>__config.yml</code><br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">你的github仓库的地址，这个仓库的名字一定要是username.github.io</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure></p>
+<p>然后运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<p>就部署成功了！太轻松了有木有！！</p>
+
+      
+    </div>
+  </div>
+  
+    
+  
+  <br>
+</article>
+
+
+
+
+</div>
+<div class="col-md-3 col-sm-3 blog-sidebar">
+  <!-- CATEGORIES START -->
+<h2 class="no-top-space">Categories</h2>
+
+<div class="widget-wrap">
+  <div class="widget">
+    <ul class="nav sidebar-categories margin-bottom-40">
+      
+	<li>
+	  <a href="/categories/Tech/">Tech (1)</a>
+	</li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<!-- CATEGORIES END -->
+
+<!-- BEGIN BLOG TAGS -->
+<div class="blog-tags margin-bottom-20">
+  <h2>Tags</h2>
+  
+  <div class="widget-wrap">
+    <div class="widget">
+      
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/frontend/"><i class='fa fa-tags'></i>frontend</a></li></ul>
+    </div>
+  </div>
+
+
+</div>
+<!-- END BLOG TAGS -->
+
+
+<!-- BEGIN FEATURED POSTS -->                            
+<h2>Featured Posts</h2>
+<div class="recent-news margin-bottom-10">
+  
+    
+  
+</div>
+<!-- END FEATURED POSTS -->                            
+
+</div>
+</div>
+
+  </section>
+</div>
+
+      <!-- BEGIN FOOTER -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- BEGIN COPYRIGHT -->
+          <div class="col-md-6 col-sm-6 padding-top-10">
+                  &copy; 2018 Lesley&#39;s Blog<br>
+ <a href="javascript:;">Privacy Policy</a> | <a href="javascript:;">Terms of Service</a>
+          </div>
+          <!-- END COPYRIGHT -->
+	  <!-- BEGIN SOCIAL -->
+<div class="col-md-6 col-sm-6">
+  <ul class="social-footer list-unstyled list-inline pull-right">
+    
+      <li><a href="https://github.com/cloudsere"><i class="fa fa-github"></i></a></li>
+    
+  </ul>  
+</div>
+<!-- END SOCIAL -->
+
+        </div>
+      </div>
+    </div>
+    <!-- END FOOTER -->
+
+  <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+<!--[if lt IE 9]>
+<script src="/metronic/assets/plugins/respond.min.js"></script>
+<![endif]--> 
+<script src="/metronic/assets/plugins/jquery.min.js"></script>
+<script src="/metronic/assets/plugins/jquery-migrate.min.js"></script>
+<script src="/metronic/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/metronic/assets/corporate/scripts/back-to-top.js"></script>
+<script src="/metronic/assets/plugins/owl.carousel/owl.carousel.min.js"></script>
+<script src="/metronic/assets/corporate/scripts/layout.js"></script>
+<script src="/js/wow.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        Layout.init();    
+        Layout.initOWL();
+        Layout.initTwitter();
+        Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
+        Layout.initNavScrolling(); 
+	new WOW().init();
+    });
+</script>
+<!-- END CORE PLUGINS -->
+
+<!-- BEGIN PAGE-SPECIFIC PLUGINS --> 
+
+
+
+
+
+
+
+<!-- END PAGE-SPECIFIC PLUGINS --> 
+
+<!-- BEGIN INTEGRATIONS -->
+
+
+
+
+
+<!-- END INTEGRATIONS -->
+
+</body>
+</html>
