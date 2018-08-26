@@ -12,12 +12,14 @@ body {
 	font: 400 13px 'Open Sans', Arial, sans-serif;
 	background: #fff;
 }
-
+.corporate .container{
+	min-height: calc(100% - 160px);
+}
 /***
 General typography 
 ***/
 h1, h2, h3, h4, h5, h6 {
-	font: 300 'Open Sans', sans-serif;
+	font: 250 'Open Sans', sans-serif;
 	margin: 0 0 10px;
 }
 h1 {
@@ -1694,10 +1696,6 @@ Pre-Footer and pre-footer elements
 	color: #fff;
 	font-size: 12px;
 	padding: 15px 0;
-	position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
 }
 .footer-light {
 	background: #F9F9F9;
@@ -2491,9 +2489,15 @@ Demo Utils
 }
 
 /* Blog Page */
+.blog-posts h1, h2{
+	margin-bottom: 30px;
+}
+#custom-article-title {
+	margin-bottom: 0;
+}
 .blog-posts h2,
 .ecommerce .blog-posts h2 {
-  padding-top: 0;
+  padding-top: 20px;
 }
 .blog-posts p {
   text-align: justify;
@@ -2660,8 +2664,10 @@ Demo Utils
   margin-bottom: 0;
 }
 .blog-item blockquote {
-  margin: 20px 40px 18px;
   border-color: #E84D1C;
+}
+.blog-item blockquote p {
+	font-size: 0.7em;
 }
 .blog-item .blog-info {
   margin: 20px 0;

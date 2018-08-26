@@ -33,6 +33,9 @@ body {
   text-shadow: none;
   padding: 0;
 }
+.article-entry .highlight {
+  margin: 0 100px 40px 0;
+}
 .article-entry .highlight pre {
   border: none;
   margin: 0;
@@ -237,7 +240,7 @@ h4 {
 .article-entry li {
   text-align: inherit !important;
   line-height: 1.75em !important;
-  font-size: 1.2em;
+  font-size: 1em;
   max-width: 42em;
   color: #333;
 }
